@@ -1,0 +1,6 @@
+{
+    "parent":"minecraft:item/generated",
+    "textures":{
+        "layer0":"proton:item/tin_ingot"
+    }
+}

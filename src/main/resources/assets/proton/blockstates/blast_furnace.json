@@ -1,0 +1,8 @@
+{
+    "variants": {
+      "facing=north": { "model": "proton:block/blast_furnace" },
+      "facing=east":  { "model": "proton:block/blast_furnace", "y":  90},
+      "facing=south": { "model": "proton:block/blast_furnace", "y": 180 },
+      "facing=west":  { "model": "proton:block/blast_furnace", "y": 270 }
+    }
+  }

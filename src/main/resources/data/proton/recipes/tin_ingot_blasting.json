@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "proton:tin_ore"
+  },
+  "result": "proton:tin_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}
