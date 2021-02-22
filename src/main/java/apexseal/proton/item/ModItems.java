@@ -1,9 +1,10 @@
 package apexseal.proton.item;
 
 import apexseal.proton.block.ModBlocks;
-import apexseal.proton.item.material.SteelArmour;
-import apexseal.proton.item.material.SteelPickaxe;
-import apexseal.proton.item.material.SteelTool;
+import apexseal.proton.item.armor.SteelArmour;
+import apexseal.proton.item.tool.SteelAxe;
+import apexseal.proton.item.tool.SteelPickaxe;
+import apexseal.proton.item.tool.SteelTool;
 import apexseal.proton.Proton;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.ArmorItem;
@@ -78,9 +79,12 @@ public class ModItems {
     public static final Item STEEL_CHESTPLATE = new ArmorItem(steelArmourMaterial, EquipmentSlot.CHEST, new Item.Settings().group(Proton.ITEM_GROUP));
     public static final Item STEEL_LEGGINGS = new ArmorItem(steelArmourMaterial, EquipmentSlot.LEGS, new Item.Settings().group(Proton.ITEM_GROUP));
     public static final Item STEEL_BOOTS = new ArmorItem(steelArmourMaterial, EquipmentSlot.FEET, new Item.Settings().group(Proton.ITEM_GROUP));
+    
+    //Tools
 
     public static final ToolItem STEEL_SWORD = new SwordItem(SteelTool.INSTANCE, 5, -2.4F, new Item.Settings().group(Proton.ITEM_GROUP));
     public static final ToolItem STEEL_PICKAXE = new SteelPickaxe(SteelTool.INSTANCE, 1, -2.8F, new Item.Settings().group(Proton.ITEM_GROUP));
+    public static final ToolItem STEEL_AXE = new SteelAxe(SteelTool.INSTANCE, 7, -3.0F, new Item.Settings().group(Proton.ITEM_GROUP));
 
     public static void registerItems(){
         //Registering items
@@ -106,6 +110,7 @@ public class ModItems {
 
         Registry.register(Registry.ITEM, new Identifier(Proton.MOD_ID,"steel_sword"), STEEL_SWORD);
         Registry.register(Registry.ITEM, new Identifier(Proton.MOD_ID,"steel_pickaxe"), STEEL_PICKAXE);
+        Registry.register(Registry.ITEM, new Identifier(Proton.MOD_ID,"steel_axe"), STEEL_AXE);
 
         //Registering block items
         Registry.register(Registry.ITEM, new Identifier(Proton.MOD_ID,"tin_block"), TIN_BLOCK);
