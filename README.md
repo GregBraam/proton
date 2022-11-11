@@ -47,25 +47,15 @@ Carbon
 End Shard
 ![](https://github.com/GregBraam/proton/blob/master/src/main/resources/assets/proton/textures/item/end_shard.png)
 
-Soon™
-
 # Machines
-
-Soon™
 
 # Generators
 
-Soon™
-
 # Tools
-
-Soon™
 
 # Storage
 ## Blocks
 ## Items
-
-Soon™
 
 # Armour
 
@@ -75,9 +65,4 @@ Steel armour
 ![](https://github.com/GregBraam/proton/blob/master/src/main/resources/assets/proton/textures/item/steel_leggings.png)
 ![](https://github.com/GregBraam/proton/blob/master/src/main/resources/assets/proton/textures/item/steel_boots.png)
 
-Soon™
-
 # Cables
-
-Soon™
-
